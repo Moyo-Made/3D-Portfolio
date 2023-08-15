@@ -34,9 +34,9 @@ const data= [
       {
         id: 4,
         image: IMG4,
-        title: 'Legit Academy Website',
-        github: 'https://github.com/Moyo-Made/Legit-academy',
-        demo: 'https://legit-academy-git-main-moyo-made.vercel.app/'
+        title: 'Tindog Website',
+        github: 'https://github.com/Moyo-Made/Tindogwebsite',
+        demo: 'https://tindogwebsite-orcin.vercel.app/'
         },
         
 ]
