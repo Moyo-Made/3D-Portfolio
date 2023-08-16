@@ -12,7 +12,7 @@ const data= [
     image: IMG5,
     title: 'Weather App',
     github: 'https://github.com/Moyo-Made/Weather-Application',
-    demo: 'https://weather-application-2ezu.vercel.app/'
+    demo: 'https://weather-app-dyvu.vercel.app/'
     },
 
    {
