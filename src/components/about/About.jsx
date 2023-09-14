@@ -16,36 +16,36 @@ const About = () => {
       <div className='container about__container'>
       
         <div className='about__me'>
-        <div className='about__me-image'>
-        <img src={ME} alt=""/>
-        </div>
+          <div className='about__me-image'>
+            <img src={ME} alt=""/>
+          </div>
         </div>
           <div className='about__content'>
-          <div className='about__cards'>
-            <active className='about__card'>
-            <FaAward className='about__icons'/>
-            <h4>Experience</h4>
-            <small>1+ Year Working</small>
-            </active>
+            <div className='about__cards'>
+              <active className='about__card'>
+                <FaAward className='about__icons'/>
+                <h4>Experience</h4>
+                <small>1+ Year Working</small>
+              </active>
 
-            <active className='about__card'>
-            <FiUsers className='about__icons'/>
-            <h4>Clients</h4>
-            <small>7+ clients</small>
-            </active>
+              <active className='about__card'>
+                <FiUsers className='about__icons'/>
+                <h4>Clients</h4>
+                <small>7+ clients</small>
+              </active>
 
-            <active className='about__card'>
-            <VscFolder className='about__icons'/>
-            <h4>Projects</h4>
-            <small>15+ completed</small>
-            </active>
+              <active className='about__card'>
+                <VscFolder className='about__icons'/>
+                <h4>Projects</h4>
+                <small>15+ completed</small>
+              </active>
           
-          </div>
-          <p>
-            I am a industrious and result-oriented software developer with strong foundational knowldge needed as a developer.
-            I have great knowledge of HTML, CSS, JavaScript, Typescript, React, and Node.js.
-          </p>
-          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+            </div>
+              <p>
+              I am a industrious and result-oriented software developer with strong foundational knowldge needed as a developer.
+              I have great knowledge of HTML, CSS, JavaScript, Typescript and React.
+            </p>
+            <a href='#contact' className='btn btn-primary'>Let's Talk</a>
           </div>
       </div>
     </section>

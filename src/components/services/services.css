@@ -65,6 +65,9 @@
 /* Media queries (Small Devices) */
 @media screen and (max-width:600px){
     .service__list p{
-        font-size: 0.85rem;
+        font-size: 0.98rem;
+        display: flex;
+        justify-content: left;
+        text-align: left;
     }
 }

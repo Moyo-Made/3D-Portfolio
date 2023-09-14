@@ -15,9 +15,7 @@ const Header = () => (
       <h3>Hello I'm</h3>
       <motion.h1 
       animate={{rotate: 360}}
-      
-      
-      
+
       >Moyomade</motion.h1>
       <h3>Software Developer</h3>
       <CTA />

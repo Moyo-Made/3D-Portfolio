@@ -138,11 +138,12 @@
         text-align: center;
     }
 
-    .about__content p{
-        text-align: center;
+    .about__content > p{
+        display: flex;
+        align-items: center;
         justify-content: center;
-        width: 70%;
-        margin-left: 80px;
+        width: 90%;
+        margin-left: 18px;
     }
 
     .about__me{
