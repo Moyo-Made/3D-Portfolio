@@ -95,15 +95,14 @@ header h1{
     header{
         height: 60vh;
     }
-/* 
+
     .header_socials{
         left: 0;
     }
 
     .scroll_down{
-        margin-right: 4px;
-    } */
-   
+        display: hidden;
+    } 
 }
 
 @keyframes slideInLeft{
