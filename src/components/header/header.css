@@ -93,7 +93,7 @@ header h1{
 /* Media queries (Small Devices) */
 @media screen and (max-width:600px){
     header{
-        height: 60vh;
+        height: 50vh;
     }
 
     .header_socials{
