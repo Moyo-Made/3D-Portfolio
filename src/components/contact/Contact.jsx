@@ -28,7 +28,7 @@ const Contact = () => {
 					<article className="contact__option">
 						<BsInstagram className="contact__option-icon" />
 						<h3>Instagram</h3>
-						<h4>maverick__007</h4>
+						<h4>madev_7</h4>
 					</article>
 
 					<article className="contact__option">

@@ -1,17 +1,32 @@
 import React from "react";
 import "./portfolio.css";
+import IMG1 from "../../images/madev.PNG";
 import IMG2 from "../../images/redstore.PNG";
 import IMG3 from "../../images/chat.PNG";
-import IMG4 from "../../images/tindog.PNG";
+import IMG4 from "../../images/real estate.PNG";
 import IMG5 from "../../images/weather.PNG";
 
 const data = [
+	{
+		id: 4,
+		image: IMG4,
+		title: "Real Estate Website",
+		github: "https://github.com/Moyo-Made/REAL-ESTATE-WEBSITE",
+		demo: "https://real-estate-websitee.netlify.app/",
+	},
 	{
 		id: 3,
 		image: IMG3,
 		title: "Real Time Chat Application",
 		github: "https://github.com/Moyo-Made/CHAT-APP",
 		demo: "https://meetup7.netlify.app",
+	},
+	{
+		id: 1,
+		image: IMG1,
+		title: "Portfolio Website",
+		github: "https://github.com/Moyo-Made/3D-Portfolio",
+		demo: "https://madev.netlify.app",
 	},
 	{
 		id: 5,
@@ -27,14 +42,6 @@ const data = [
 		title: "E-commerce Website",
 		github: "https://github.com/Moyo-Made/E-commerce-website",
 		demo: "https://e-commerce-website-moyo-made.vercel.app/",
-	},
-
-	{
-		id: 4,
-		image: IMG4,
-		title: "Tindog Website",
-		github: "https://github.com/Moyo-Made/Tindogwebsite",
-		demo: "https://tindogwebsite-orcin.vercel.app/",
 	},
 ];
 

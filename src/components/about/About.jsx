@@ -22,7 +22,7 @@ const About = () => {
 						<active className="about__card">
 							<FaAward className="about__icons" />
 							<h4>Experience</h4>
-							<small>1+ Year Working</small>
+							<small>2+ Year Working</small>
 						</active>
 
 						<active className="about__card">
@@ -34,7 +34,7 @@ const About = () => {
 					<p>
 						I am a industrious and result-oriented software developer with
 						strong foundational knowldge needed as a developer. I have great
-						knowledge of HTML, CSS, JavaScript, Typescript and React.
+						knowledge of HTML, CSS, JavaScript, React and Vue.
 					</p>
 					<a href="#contact" className="btn btn-primary">
 						Let's Talk
