@@ -50,7 +50,7 @@ header h1 {
 }
 
 /* Me */
-.me {
+.hero_img {
 	width: 22rem;
 	height: 28rem;
 	position: absolute;
@@ -96,7 +96,7 @@ header h1 {
 		left: 0;
 	}
 
-	.me {
+	.hero_img {
 		width: 18rem;
 		height: 22rem;
 		position: absolute;

@@ -3,6 +3,8 @@ import "./footer.css";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 
 const Footer = () => {
 	return (
@@ -34,6 +36,23 @@ const Footer = () => {
 
 			<div className="footer__socials">
 				<a
+					href="https://www.linkedin.com/in/moyomade-adegbite/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<BsLinkedin />
+				</a>
+				<a href="https://github.com/Moyo-Made" target="_blank" rel="noreferrer">
+					<BsGithub />
+				</a>
+				<a
+					href="https://twitter.com/moyomadee7"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<FaTwitter />
+				</a>
+				<a
 					href="https://web.facebook.com/moyomade.adegbite.malz.10"
 					target="_blank"
 					rel="noreferrer"
@@ -47,17 +66,10 @@ const Footer = () => {
 				>
 					<BsInstagram />
 				</a>
-				<a
-					href="https://twitter.com/moyomadee7"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<FaTwitter />
-				</a>
 			</div>
 
 			<div className="footer__copyright">
-				<small>&copy; made_techboy. All rights reserved.</small>
+				<small>&copy; madev. All rights reserved.</small>
 			</div>
 		</footer>
 	);
