@@ -5,8 +5,17 @@ import IMG2 from "../../images/redstore.PNG";
 import IMG3 from "../../images/chat.PNG";
 import IMG4 from "../../images/real estate.PNG";
 import IMG5 from "../../images/weather.PNG";
+import IMG6 from "../../images/sushi.PNG"
 
 const data = [
+	{
+		id: 6,
+		image: IMG6,
+		title: "Sushi Website: React and Tailwind CSS",
+		desc: "Step into a sushi lover's dream! This website, made with React, showcases delicious sushi options. Dive in, explore our menu, and enjoy a smooth website experience. Take a look in my portfolio to see it live! 🍣🖥️",
+		github: "https://github.com/Moyo-Made/REAL-ESTATE-WEBSITE",
+		demo: "https://real-estate-websitee.netlify.app/",
+	},
 	{
 		id: 4,
 		image: IMG4,
