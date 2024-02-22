@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import CTA from "./CTA";
-import HeaderImage from "../../images/heroimg.jpg";
+import HeaderImage from "../../images/IMG_8949.jpeg";
 import HeaderSocials from "./HeaderSocials";
 import { motion } from "framer-motion";
 
