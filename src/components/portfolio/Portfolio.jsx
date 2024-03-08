@@ -1,5 +1,6 @@
 import React from "react";
 import "./portfolio.css";
+import IMG7 from "../../images/hoobank.PNG";
 import IMG6 from "../../images/sushi.PNG";
 import IMG5 from "../../images/megaleague.PNG";
 import IMG4 from "../../images/real estate.PNG";
@@ -19,7 +20,7 @@ const data = [
 	{
 		id: 7,
 		title: "Hoobank: React & Tailwind",
-		image: IMG5,
+		image: IMG7,
 		desc: "Presenting a modern banking website: intuitive, secure, and personalized for your financial needs. Enjoy easy access, robust tools, and responsive support—all in one convenient platform.",
 		github: "https://github.com/Moyo-Made/Modern-banking-app",
 		demo: "https://hoobankss.netlify.app/",
