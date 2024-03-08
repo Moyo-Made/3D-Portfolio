@@ -1,11 +1,11 @@
 import React from "react";
 import "./portfolio.css";
-import IMG6 from "../../images/sushi.PNG"
-import IMG5 from "../../images/megaleague.PNG"
-import IMG4 from "../../images/real estate.PNG"
-import IMG3 from "../../images/chat.PNG"
-import IMG2 from "../../images/redstore.PNG"
-import IMG1 from "../../images/madev.PNG"
+import IMG6 from "../../images/sushi.PNG";
+import IMG5 from "../../images/megaleague.PNG";
+import IMG4 from "../../images/real estate.PNG";
+import IMG3 from "../../images/chat.PNG";
+import IMG2 from "../../images/redstore.PNG";
+import IMG1 from "../../images/madev.PNG";
 
 const data = [
 	{
@@ -14,7 +14,15 @@ const data = [
 		image: IMG5,
 		desc: "I had the opportunity to collaborate closely with both the design and backend teams as a front-end developer on revamping the Mega League website using Vue.js. This collaborative effort successfully delivered the Mega League website, a company that unites high-school students globally to tackle social issues through technology.",
 		github: "https://github.com/MEGA-Hackathon/kinect.megahack.tech",
-		demo: "https://megahack.tech/"
+		demo: "https://megahack.tech/",
+	},
+	{
+		id: 7,
+		title: "Hoobank: React & Tailwind",
+		image: IMG5,
+		desc: "Presenting a modern banking website: intuitive, secure, and personalized for your financial needs. Enjoy easy access, robust tools, and responsive support—all in one convenient platform.",
+		github: "https://github.com/Moyo-Made/Modern-banking-app",
+		demo: "https://hoobankss.netlify.app/",
 	},
 	{
 		id: 6,
@@ -22,7 +30,7 @@ const data = [
 		title: "Sushi Website: React and Tailwind CSS",
 		desc: "Step into a sushi lover's dream! This website, made with React, showcases delicious sushi options. Dive in, explore our menu, and enjoy a smooth website experience. Take a look in my portfolio to see it live! 🍣🖥️",
 		github: "https://github.com/Moyo-Made/SUSHI",
-		demo: "https://getsushi.netlify.app/"
+		demo: "https://getsushi.netlify.app/",
 	},
 	{
 		id: 4,
@@ -30,7 +38,7 @@ const data = [
 		title: "🏡 Real Estate Website: React-Powered Perfection!",
 		desc: "A sleek real estate website built with React. 🚀 Explore listings effortlessly, enjoy interactive maps, and experience a seamless UI. Check it out live in my portfolio! 💼",
 		github: "https://github.com/Moyo-Made/REAL-ESTATE-WEBSITE",
-		demo: "https://real-estate-websitee.netlify.app/"
+		demo: "https://real-estate-websitee.netlify.app/",
 	},
 	{
 		id: 3,
@@ -38,7 +46,7 @@ const data = [
 		desc: "A chat app using React and Firebase. 🚀 Enjoy real-time messaging, secure authentication, and a contemporary UI. Check it out live in my portfolio! 💼",
 		title: "💬 Real-Time Chat App: React & Firebase",
 		github: "https://github.com/Moyo-Made/CHAT-APP",
-		demo: "https://meetup7.netlify.app"
+		demo: "https://meetup7.netlify.app",
 	},
 	{
 		id: 1,
@@ -46,17 +54,17 @@ const data = [
 		title: "🌐 Portfolio Showcase: Crafted with React Brilliance!",
 		desc: "Proudly presenting my portfolio website built with React! 🚀 Dive into a seamless browsing experience, sleek design, and discover more about my skills. Explore now!",
 		github: "https://github.com/Moyo-Made/3D-Portfolio",
-		demo: "https://madev.netlify.app"
+		demo: "https://madev.netlify.app",
 	},
 	{
 		id: 2,
 		image: IMG2,
-		title: "🛍️ Ecommerce Delight: HTML, CSS, JS Wonders!",
+		title: "🛍️ Ecommerce Delight: HTML, CSS, JS",
 		desc: " An ecommerce website crafted with HTML, CSS, and JavaScript. 🚀 Explore seamless shopping, captivating design, and a user-friendly experience. Check it out live in my portfolio! 💼",
 		github: "https://github.com/Moyo-Made/E-commerce-website",
-		demo: "https://e-commerce-website-moyo-made.vercel.app/"
-	}
-]
+		demo: "https://e-commerce-website-moyo-made.vercel.app/",
+	},
+];
 
 const Portfolio = () => {
 	return (
